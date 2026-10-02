@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LC Hub – Learn, Create, Innovate. Offline-ready hub for research, innovation and impact. Live Zoom sessions, events, and community." />
+    <meta name="theme-color" content="#0a4d8c" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="LC Hub" />
+    <title>LC Hub | Home – Learn · Create · Impact</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect fill='%230a4d8c' width='100' height='100' rx='20'/%3E%3Ctext x='50' y='62' font-size='42' font-weight='800' fill='white' text-anchor='middle' font-family='system-ui'%3ELC%3C/text%3E%3C/svg%3E"
+    />
+</head>
+
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo" aria-label="LC Hub Home">
+                <span class="logo-icon">LC</span>
+                <span>LC Hub</span>
+            </a>
+
+            <div class="search-box">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                <input type="search" class="search-input" placeholder="Search pages..." aria-label="Search" />
+            </div>
+
+            <nav class="nav" aria-label="Main navigation">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="events.html" class="nav-link">Events</a>
+                <a href="learn.html" class="nav-link">Learn</a>
+                <a href="research.html" class="nav-link">Research</a>
+                <a href="innovate.html" class="nav-link">Innovate</a>
+                <a href="impact.html" class="nav-link">Make Impact</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="auth-btns auth-guest">
+                <a href="login.html" class="btn btn-outline">Login</a>
+                <a href="register.html" class="btn btn-primary">Register</a>
+            </div>
+
+            <div class="auth-user" style="display:none">
+                <div class="user-menu">
+                    <button class="user-btn" type="button" aria-haspopup="true" aria-expanded="false">
+            <span class="user-avatar user-initial">U</span>
+            <span class="user-name">User</span>
+          </button>
+                    <div class="user-dropdown" role="menu">
+                        <a href="learn.html" role="menuitem">My Learning</a>
+                        <button type="button" class="logout-btn" role="menuitem">Logout</button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="menu-toggle" aria-label="Toggle menu" type="button" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="search-box">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                <input type="search" class="search-input" placeholder="Search pages..." aria-label="Search" />
+            </div>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="events.html" class="nav-link">Events</a>
+            <a href="learn.html" class="nav-link">Learn</a>
+            <a href="research.html" class="nav-link">Research</a>
+            <a href="innovate.html" class="nav-link">Innovate</a>
+            <a href="impact.html" class="nav-link">Make Impact</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <div class="auth-btns auth-guest">
+                <a href="login.html" class="btn btn-outline">Login</a>
+                <a href="register.html" class="btn btn-primary">Register</a>
+            </div>
+            <div class="auth-user" style="display:none">
+                <a href="learn.html" class="nav-link">My Learning</a>
+                <button type="button" class="btn btn-outline logout-btn" style="width:100%">Logout</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">Learn · Create · Impact · Offline-ready</span>
+                <h1>Empowering Innovators to Shape Tomorrow</h1>
+                <p>
+                    Deploying machine learning to parse multi-omic data streams. This framework employs Explainable AI (XAI) and systematic reviews to establish explicit mathematical probabilities for compound risks rather than relying on empirical observation alone..
+                </p>
+                <div class="hero-actions">
+                    <a href="register.html" class="btn btn-accent btn-lg">Get Started</a>
+                    <a href="learn.html" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,0.6);color:white">Explore Zoom Sessions</a>
+                </div>
+                <div class="hero-stats">
+                    <div>
+                        <span class="stat-num">2.5k+</span>
+                        <span class="stat-label">Learners</span>
+                    </div>
+                    <div>
+                        <span class="stat-num">120+</span>
+                        <span class="stat-label">Events</span>
+                    </div>
+                    <div>
+                        <span class="stat-num">45</span>
+                        <span class="stat-label">Research Projects</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== VISION / CATEGORIES ===== -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Vision</span>
+                <h2>Building a Community of Changemakers</h2>
+                <p>A sustainable future requires scaling grassroots networks that connect impact-driven leaders. Translating high-level innovations—like predictive toxicology models, green chemistry, and sustainable materials—into real-world practice requires
+                    a highly structured, collaborative ecosystem. Building a community of changemakers requires moving past passive networking and focusing on infrastructure for co-creation, shared resource access, and scalable local engagement..</p>
+            </div>
+
+            <div class="vision-grid">
+                <div class="vision-image">
+                    <div class="vision-placeholder">
+                        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+                        <span><img src="images/Vision & Impact.jfif" alt="Research" width="500" height="300"></span>
+                    </div>
+                </div>
+                <div class="vision-content">
+                    <h3>Why LC Hub Exists</h3>
+                    <p>
+                        Building a high-retention ecosystem requires combining digital collaboration tools with high-impact, real-world project outcomes.
+                    </p>
+                    <ul class="vision-list">
+                        <li>
+                            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>
+                            <span>Accessible learning through live Zoom sessions with experts</span>
+                        </li>
+                        <li>
+                            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>
+                            <span>Collaborative research that drives real-world solutions</span>
+                        </li>
+                        <li>
+                            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>
+                            <span>Innovation labs and mentorship for aspiring creators</span>
+                        </li>
+                        <li>
+                            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>
+                            <span>Measurable impact programs that transform communities</span>
+                        </li>
+                    </ul>
+                    <a href="about.html" class="btn btn-primary" style="margin-top:1.5rem">Learn more about us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FEATURED CATEGORIES ===== -->
+    <section class="section" style="background:white">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Explore</span>
+                <h2>What You Can Do at LC Hub</h2>
+                <p>Discover pathways to learn, research, innovate and create lasting impact — available offline after your first visit.</p>
+            </div>
+            <div class="cards-grid">
+                <article class="card">
+                    <div class="card-img" aria-hidden="true"><img src="images/Learn.jfif" alt="Learn" width="500" height="300"></div>
+                    <div class="card-body">
+                        <h3>Learn</h3>
+                        <p>Join live Zoom workshops and courses scheduled with dates. Build skills with industry experts.</p>
+                        <a href="learn.html" class="card-link">View sessions →</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-img" aria-hidden="true">
+                        <img src="images/Research.jfif" alt="Research" width="500" height="300">
+                    </div>
+                    <div class="card-body ">
+                        <h3>Research</h3>
+                        <p>Collaborate on cutting-edge research projects that address local and global challenges.</p>
+                        <a href="research.html " class="card-link ">Explore research →</a>
+                    </div>
+                </article>
+                <article class="card ">
+                    <div class="card-img " aria-hidden="true "><img src="images/innovate.jfif" alt="Innovate" width="500" height="300"></div>
+                    <div class="card-body ">
+                        <h3>Innovate</h3>
+                        <p>Turn ideas into prototypes. Access tools, mentors and a community of innovators.</p>
+                        <a href="innovate.html " class="card-link ">Start innovating →</a>
+                    </div>
+                </article>
+                <article class="card ">
+                    <div class="card-img " aria-hidden="true "><img src="images/Impact.png" alt="Make Impact" width="500" height="300"></div>
+                    <div class="card-body ">
+                        <h3>Make Impact</h3>
+                        <p>Apply your skills to community projects and measure the change you create.</p>
+                        <a href="impact.html " class="card-link ">See impact →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="section " style="background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:white;text-align:center ">
+        <div class="container ">
+            <h2 style="font-size:2rem;font-weight:800;margin-bottom:1rem ">Ready to join the movement?</h2>
+            <p style="opacity:0.9;max-width:480px;margin:0 auto 2rem ">Create a free account to access Zoom learning sessions, events and more. Works offline with automatic sync.</p>
+            <a href="register.html " class="btn btn-accent btn-lg ">Register Now</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer ">
+        <div class="container ">
+            <div class="footer-grid ">
+                <div class="footer-brand ">
+                    <a href="index.html " class="logo ">
+                        <span class="logo-icon ">LC</span>
+                        <span>LC Hub</span>
+                    </a>
+                    <p>Empowering learners, researchers and innovators to create meaningful impact in their communities. Offline-ready PWA.</p>
+                </div>
+                <div>
+                    <h4>Explore</h4>
+                    <div class="footer-links ">
+                        <a href="about.html ">About</a>
+                        <a href="events.html ">Events</a>
+                        <a href="learn.html ">Learn</a>
+                        <a href="research.html ">Research</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Engage</h4>
+                    <div class="footer-links ">
+                        <a href="innovate.html ">Innovate</a>
+                        <a href="impact.html ">Make Impact</a>
+                        <a href="contact.html ">Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Account</h4>
+                    <div class="footer-links ">
+                        <a href="register.html ">Register</a>
+                        <a href="login.html ">Login</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom ">
+                <span>© 2026 LC Hub. All rights reserved.</span>
+                <span>Built with purpose · Learn · Create · Impact</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js "></script>
+</body>
+
+</html>

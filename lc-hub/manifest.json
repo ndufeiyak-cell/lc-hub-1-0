@@ -1,0 +1,18 @@
+{
+  "name": "LC Hub",
+  "short_name": "LC Hub",
+  "description": "Learn, Create, Innovate – offline-ready hub for research and impact.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a4d8c",
+  "theme_color": "#0a4d8c",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect fill='%230a4d8c' width='100' height='100' rx='20'/%3E%3Ctext x='50' y='62' font-size='42' font-weight='800' fill='white' text-anchor='middle' font-family='system-ui'%3ELC%3C/text%3E%3C/svg%3E",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
